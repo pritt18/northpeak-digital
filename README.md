@@ -1,51 +1,159 @@
-# NorthPeak Digital — one-page agency site
+# NorthPeak Digital - One Page Agency Website
 
-A hand-built, responsive one-page site for the fictional agency NorthPeak Digital.
-Vanilla HTML/CSS/JS — no frameworks, no page builders.
+A modern, responsive one-page agency website built for the **Digital Heroes Web Development Assessment**.
 
-- **Live URL:** https://northpeakk-digital.netlify.app/
-- **GitHub repo:** https://github.com/pritt18/northpeak-digital
+## 📌 Project Overview
 
-## Structure
+NorthPeak Digital is a fictional digital agency website designed to showcase modern web development practices, responsive design, semantic HTML, and clean UI/UX.
+The website is fully responsive and optimized for desktop, tablet, and mobile devices.
+
+---
+
+## 🚀 Features
+
+- Responsive Landing Page
+- Hero Section with Headline & Call-to-Action
+- Services Section (6 Services)
+- Results / Testimonials Section
+- Pricing Section (3 Pricing Plans)
+- Contact Form with Client-side Validation
+- Smooth Scrolling Navigation
+- Mobile-Friendly Navigation
+- Clean & Modern UI
+- Semantic HTML Structure
+- Performance Optimized
+
+---
+
+## 🛠️ Tech Stack
+
+- HTML5
+- CSS3
+- JavaScript (ES6)
+
+No frameworks, libraries, or page builders were used — pure vanilla HTML/CSS/JS, per assessment requirements.
+
+---
+
+## 📱 Responsive Design
+
+The website is designed to work seamlessly across multiple screen sizes:
+
+- 360px (Mobile)
+- 768px (Tablet)
+- 1440px (Desktop)
+
+---
+
+## 📂 Project Structure
 
 ```
 northpeak-digital/
-├── index.html        Page markup (hero, services, results, pricing, contact, footer)
+│
+├── index.html
 ├── css/
-│   └── style.css      All styles, including responsive breakpoints
+│   └── style.css
 ├── js/
-│   └── script.js       Mobile nav toggle + client-side form validation
+│   └── script.js
 └── README.md
 ```
 
-## Run it locally in VS Code
+---
 
-1. Open the `northpeak-digital` folder in VS Code (`File > Open Folder...`).
-2. Install the **Live Server** extension (by Ritwick Dey) from the Extensions panel, if you don't have it.
-3. Right-click `index.html` in the file explorer and choose **Open with Live Server**.
-4. The site opens at `http://127.0.0.1:5500` and reloads automatically as you edit.
+## ⚙️ Installation
 
-(No build step, no `npm install` — it's plain HTML/CSS/JS.)
+Clone the repository
+```bash
+git clone https://github.com/pritt18/northpeak-digital.git
+```
 
-## Push to GitHub
-
+Open the project
 ```bash
 cd northpeak-digital
-git init
-git add .
-git commit -m "Initial commit: NorthPeak Digital site"
-git branch -M main
-git remote add origin https://github.com/pritt18/northpeak-digital.git
-git push -u origin main
 ```
 
-If the repo already has a commit (e.g. a README created on GitHub), pull first to avoid a rejected push:
+Run locally
+Simply open `index.html` in your browser.
+Or use VS Code Live Server.
 
-```bash
-git pull origin main --allow-unrelated-histories
-git push -u origin main
+---
+
+## 🌐 Live Demo
+
+**Live URL**
+```
+https://northpeakk-digital.netlify.app/
 ```
 
-## Deploy
+---
 
-Already deployed to Netlify at https://northpeakk-digital.netlify.app/
+## 📁 GitHub Repository
+
+```
+https://github.com/pritt18/northpeak-digital
+```
+
+---
+
+## ✅ Assignment Requirements
+
+✔ Responsive one-page agency website
+✔ Hero section with CTA
+✔ Six Services
+✔ Results / Testimonials
+✔ Three-tier Pricing Section
+✔ Contact Form with Validation
+✔ Responsive at 360px, 768px and 1440px
+✔ Public GitHub Repository
+✔ Live Deployment
+
+---
+
+## 📋 Form Validation
+
+The contact form validates:
+
+- Name (Required, minimum 2 characters)
+- Email (Valid Email Format)
+- Budget Range (Required)
+- Message (Required, minimum 10 characters)
+
+Error messages are displayed inline for invalid inputs, and a success message confirms submission once all fields pass validation.
+
+---
+
+## 🎯 Performance
+
+- Semantic HTML5
+- Responsive Layout
+- Accessible Structure
+- Clean CSS
+- Modular JavaScript
+
+---
+
+## 👨‍💻 Author
+
+**Pritam Gangurde**
+
+---
+
+## 📄 License
+
+This project was developed for the **Digital Heroes Web Development Assessment**.
+
+---
+
+## ⭐ Footer Credit (Assessment Requirement)
+
+The website footer includes the required credit:
+
+> **Built for Digital Heroes Training Task**, linked to **https://digitalheroesco.com**
+
+---
+
+## 📬 Submission
+
+- Live URL: https://northpeakk-digital.netlify.app/
+- Public GitHub Repository: https://github.com/pritt18/northpeak-digital
+- README.md
