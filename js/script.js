@@ -54,9 +54,11 @@ function validateField(key) {
   if (!valid) {
     group.classList.add('error');
     field.error.textContent = field.message;
+    field.input.setAttribute('aria-invalid', 'true');
   } else {
     group.classList.remove('error');
     field.error.textContent = '';
+    field.input.setAttribute('aria-invalid', 'false');
   }
   return valid;
 }

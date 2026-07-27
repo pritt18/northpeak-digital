@@ -5,12 +5,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>NorthPeak Digital — Web design and growth engineering</title>
 <meta name="description" content="NorthPeak Digital builds websites and growth systems for brands ready to climb. Web design, brand strategy, and SEO growth.">
+<meta name="theme-color" content="#10192B">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2310192B'/%3E%3Cpath d='M6 22 L14 10 L18 16 L22 9 L27 22 Z' fill='%23FF5A36'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600&family=Inter:wght@400;500&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<a href="#top" class="skip-link">Skip to main content</a>
 
 <header class="site-header">
   <div class="container header-row">
@@ -22,7 +26,7 @@
       <a href="#contact">Contact</a>
     </nav>
     <a href="#contact" class="btn btn-primary nav-cta">Start your ascent</a>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <button type="button" class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
       <span></span><span></span><span></span>
     </button>
   </div>
@@ -193,12 +197,12 @@
         <div class="form-row">
           <div class="form-group">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="Jordan Blake" autocomplete="name">
+            <input type="text" id="name" name="name" placeholder="Jordan Blake" autocomplete="name" aria-describedby="nameError">
             <span class="error-msg" id="nameError"></span>
           </div>
           <div class="form-group">
             <label for="email">Email</label>
-            <input type="email" id="email" name="email" placeholder="jordan@company.com" autocomplete="email">
+            <input type="email" id="email" name="email" placeholder="jordan@company.com" autocomplete="email" aria-describedby="emailError">
             <span class="error-msg" id="emailError"></span>
           </div>
         </div>
@@ -210,7 +214,7 @@
 
         <div class="form-group">
           <label for="budget">Budget range</label>
-          <select id="budget" name="budget">
+          <select id="budget" name="budget" aria-describedby="budgetError">
             <option value="">Select a range</option>
             <option value="1-3k">$1,000 &ndash; $3,000 / mo</option>
             <option value="3-6k">$3,000 &ndash; $6,000 / mo</option>
@@ -221,7 +225,7 @@
 
         <div class="form-group">
           <label for="message">Project details</label>
-          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, timeline, and goals."></textarea>
+          <textarea id="message" name="message" rows="5" placeholder="Tell us about your project, timeline, and goals." aria-describedby="messageError"></textarea>
           <span class="error-msg" id="messageError"></span>
         </div>
 
@@ -240,6 +244,6 @@
   </div>
 </footer>
 
-<script src="js/script.js"></script>
+<script src="js/script.js" defer></script>
 </body>
 </html>

@@ -94,6 +94,34 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
 }
 .btn-outline:hover { border-color: var(--ink); }
 
+/* ===== Skip link ===== */
+.skip-link {
+  position: absolute;
+  top: -48px;
+  left: 12px;
+  background: var(--signal);
+  color: var(--signal-text);
+  padding: 0.6rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  z-index: 200;
+  transition: top 0.15s ease;
+}
+.skip-link:focus {
+  top: 12px;
+}
+
+/* ===== Focus visibility ===== */
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible {
+  outline: 2px solid var(--signal);
+  outline-offset: 2px;
+}
+
 /* ===== Header ===== */
 .site-header {
   position: sticky;
