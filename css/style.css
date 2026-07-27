@@ -4,8 +4,8 @@
   --paper: #F5F6F3;
   --slate: #5B6472;
   --line: #E1E3DE;
-  --signal: #FF5A36;
-  --signal-text: #3D1200;
+  --signal: #0EA5A0;
+  --signal-text: #04302E;
   --peak-blue: #1B3A5C;
   --white: #FFFFFF;
 
@@ -78,7 +78,7 @@ h3 { font-size: 1.15rem; margin-bottom: 0.5rem; }
   background: var(--signal);
   color: var(--signal-text);
 }
-.btn-primary:hover { background: #ff6f4d; }
+.btn-primary:hover { background: #12BFB9; }
 
 .btn-ghost {
   color: var(--paper);
